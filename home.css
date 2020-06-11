@@ -28,4 +28,5 @@
 }
 .content{
     background-image: url('./sunsine.jpg');
+    background-size: 100%;
 }
