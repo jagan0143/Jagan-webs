@@ -27,6 +27,6 @@
     background-color: rgb(63, 206, 206);
 }
 .content{
-    background-image: url('/sunsine.jpg');
+    background-image: url('./sunsine.jpg');
     background-size: 100%;
 }
