@@ -1,0 +1,31 @@
+.vedio{
+    height: 40%;
+    width: 20%;
+}
+.header{
+    background-color: blue;
+    margin-top: 0%;
+}
+.header label{
+    font-size: 200px;
+    color: rgb(241, 12, 12);
+}
+.navc,.nav{
+    margin-top: 11%;
+}
+.nav a,.navc a{
+    background-color: rgb(61, 58, 218);
+    color: red;
+    text-decoration: none;
+    padding:5% 10%;
+    font-size: 100px;
+    border-radius: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot{
+    color: teal;
+    background-color: rgb(63, 206, 206);
+}
+.content{
+    background-image: url('/BlueHeart/sunsine.jpg');
+}
