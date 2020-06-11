@@ -1,5 +1,5 @@
 .videos{
-    background-image: url('/BlueHeart/wallpaper.jpg');
+    background-image: url('./wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 5%;
