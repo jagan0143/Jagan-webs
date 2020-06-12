@@ -38,6 +38,8 @@
 .foot{
     color: teal;
     background-color: rgb(63, 206, 206);
+    padding-top:3%;
+    padding-bottom:3%;
 }
 .content{
     background-image: url('./sunsine.jpg');
