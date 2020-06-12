@@ -3,12 +3,25 @@
     width: 20%;
 }
 .header{
-    background-color: blue;
     margin-top: 0%;
+    animation-name: heading;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: blue;
 }
 .header label{
-    font-size: 200px;
+    font-size: 100px;
+    animation-name: head;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     color: rgb(241, 12, 12);
+}
+.id{
+    color: rgb(202, 85, 85);
+    font-size: 50px;
+    margin-top: 0%;
+    padding-bottom: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .navc,.nav{
     margin-top: 11%;
@@ -18,7 +31,7 @@
     color: red;
     text-decoration: none;
     padding:5% 10%;
-    font-size: 100px;
+    font-size: 70px;
     border-radius: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -27,6 +40,25 @@
     background-color: rgb(63, 206, 206);
 }
 .content{
-    background-image: url('https://github.com/jagan0143/blueheart/blob/master/sunsine.jpg');
-    background-size: 100%;
+    background-image: url('./sunsine.jpg');
+    background-position: 100%;
+}
+.add{
+    margin: 0em;
+    background-color: whitesmoke;
+}
+.add label{
+    font-size: 60px;
+    font-family: cursive;
+    color: rgb(204, 145, 34);
+}
+@keyframes heading{
+    0%{background-color: red;}
+    50%{background-color: blue;}
+    100%{background-color: red;}
+}
+@keyframes head{
+    0%{color: blue;}
+    50%{color: red;}
+    100%{color: blue;}
 }
