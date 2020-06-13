@@ -1,12 +1,13 @@
 
 .games{
+    background-image: url('./games.jpg');
     background-size: 100%;
     margin-top: 0%;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 3%;
 }
-.games label{
+.games label,.schedule label{
     font-size: 50px;
     font-style: italic;
     color: rgb(77, 6, 6);
@@ -35,8 +36,12 @@
 .ins h2,th{
     font-size: 40px;
 }
-.ins th,td{
+.ins th,td,.schedule th,td{
     width: 3%;
     padding:1% 10%;
     border:dashed;
+}
+.schedule p{
+    font-size: 30px;
+    font-family: cursive;
 }
